@@ -86,8 +86,8 @@ h2 {
 	padding:10px 0;
 	font-size:21px;
 	color:#333;
-	border-top:3px solid #FF4F00;
-	border-bottom:1px dotted #FF4F00;
+	border-top:3px solid #004FFF;
+	border-bottom:1px dotted #004FFF;
 }
 
 h3 {
@@ -101,15 +101,15 @@ h3 {
 h4 {
 	margin-bottom:0.25em;
 	font-size:15px;
-	color:#FF4F00;
-	border-bottom:3px solid #FF4F00;
+	color:#004FFF;
+	border-bottom:3px solid #004FFF;
 }
 
 h5 {
 	position:relative;
 	margin-bottom:0.25em;
 	padding-left:10px;
-	color:#FF4F00;
+	color:#004FFF;
 	font-size:14px;
 	font-weight:bold;
 }
@@ -121,7 +121,7 @@ h5:before {
     left:0;
     width:5px;
     height:14px;
-    background:#FFA500;
+    background:#00A5FF;
 }
 
 h6 {
@@ -146,7 +146,7 @@ em {
 
 strong {
 	font-weight:bold;
-	color:#ff5900;
+	color:#0059ff;
 }
 
 pre {
@@ -264,7 +264,7 @@ td {
 }
 
 .ad_text {
-	background:#F27900;
+	background:#0079F2;
 }
 
 .button {
@@ -272,13 +272,13 @@ td {
 	margin: 4%;
 	float: left;
 	position: relative;
-	background-color: #F27900;
+	background-color: #0079F2;
 	border-radius: 4px;
 	color: #fff;
 	line-height: 52px;
 	-webkit-transition: none;
 	transition: none;
-	box-shadow: 0 5px 0 #FF4F00;
+	box-shadow: 0 5px 0 #004FFF;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
 	text-align: center;
 	text-decoration: none;
@@ -317,8 +317,8 @@ header {
  ================================================*/
 @media screen and (min-width:768px) {
 	nav {
-		background:#F27900;
-		border-bottom:5px solid #FF4F00;
+		background:#0079F2;
+		border-bottom:5px solid #004FFF;
 		box-shadow:0 1px 3px #999;
 		z-index:3;
 	}
@@ -346,7 +346,7 @@ header {
 		left:0;
 		width:1px;
 		height:14px;
-		background:#FFA500;
+		background:#00A5FF;
 	}
 	nav li:last-child:after {
 		content:"";
@@ -356,7 +356,7 @@ header {
 		right:0;
 		width:1px;
 		height:14px;
-		background:#FFA500;
+		background:#00A5FF;
 	}
 	nav li:hover:before,
 	nav li:hover + li:before,
@@ -399,26 +399,26 @@ header {
 	}
 	nav li ul li a {
 		padding:10px 15px;
-		background:#ff5900;
+		background:#0059ff;
 		text-align:left;
 		font-weight:normal;
 	}
 	nav li:hover > a {
-		background:#ff5900;
+		background:#0059ff;
 		color:#fff;
 	}
 	nav li:hover > a:hover {
-		background:#FF4F00;
+		background:#004FFF;
 	}
 
 	.showNav {
-		background:#ff5900 !important;
+		background:#0059ff !important;
 	}
 
 	.showSub {
 		overflow:visible;
 		height:42px;
-		border-bottom:2px solid #FFA500;
+		border-bottom:2px solid #00A5FF;
 	}
 	.showSub:last-child {
 		border-bottom:0;
@@ -549,10 +549,10 @@ footer {
 	text-decoration:none;
 }
 .totop img {
-	background:#FF4F00;
+	background:#004FFF;
 }
 .totop img:hover {
-	background:#ff0600;
+	background:#0006ff;
 }
 
 /*================================================
@@ -748,7 +748,7 @@ footer {
 		width:100%;
 	}
 	nav {
-		background:#FF4F00;
+		background:#004FFF;
 	}
 	nav ul {
 		margin:0;
@@ -773,8 +773,8 @@ footer {
 		margin:0;
 		text-align:left;
 		list-style:none;
-		border-bottom:1px solid #FFA500;
-		background:#F27900;
+		border-bottom:1px solid #00A5FF;
+		background:#0079F2;
 	}
 
 	nav li:first-child {
@@ -789,11 +789,11 @@ footer {
 		padding:10px 30px;
 		color:#fff;
 		text-decoration:none;
-		background:#F27900;
+		background:#0079F2;
 	}
 	nav li a:hover {
 		color:#fff;
-		background:#FF4F00;
+		background:#004FFF;
 	}
 	nav ul ul {
 		display:none;
@@ -830,10 +830,10 @@ footer {
 		width:10px;
 		height:10px;
 		margin-top:-10px;
-		background:#F27900;
+		background:#0079F2;
 	}
 	.subnav a:hover:after {
-	  background:#FF4F00;
+	  background:#004FFF;
 	}
 
 	.active > a:before {
@@ -859,7 +859,7 @@ footer {
 		width:30px;
 		height:30px;
 		border-radius:5%;
-		background:#FF4F00;
+		background:#004FFF;
 	}
 	#navBtnIcon {
 		display:block;
