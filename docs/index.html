@@ -1,37 +1,482 @@
-
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Chofufes2017</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <ul>
-      <li>リスト1</li>
-      <li>リスト2</li>
-    </ul>
-    <h2>I'm M_n.</h2>
-    <p>段落を使ってみる。<br>開業した。</p>
-    <p>だんらく22222222222s</p>
-    <p>段落31  <a href="http://www.chofusai.uec.ac.jp">今年の長夫妻</a></p>
-    <p class="b">ここCSS</p>
 
-    <style media="screen">
-      .b{
-        color: #ff0000;
-        background-color: #555555;
-      }
+<html lang="ja">
 
-      .c{
-        color: #00ff00;
-        background-color: #123456;
-      }
-    </style>
+<head>
+	<meta charset="utf-8">
+	<title>電気通信大学第66回調布祭</title>
+	<link rel="shortcut icon" href="./images/favicon.ico" />
+	<meta name="viewport" content="width=device-width">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/tw.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/jquery.smoothscroll.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollshow.js"></script>
+	<script type="text/javascript" src="js/jquery.rollover.js"></script>
+	<script type="text/javascript" src="js/jquery.slidewide.js"></script>
+	<script>
+		$(function($) {
+			if ($('#spMenu').css('display') == 'block') {
+				$('html').smoothscroll({
+					easing: 'swing',
+					speed: 1000,
+					margintop: 10,
+					headerfix: $('header')
+				});
+			} else {
+				$('html').smoothscroll({
+					easing: 'swing',
+					speed: 1000,
+					margintop: 10,
+					headerfix: $('nav')
+				});
+			}
+			$('.totop').scrollshow({
+				position: 500
+			});
+			$('.slide').slidewide({
+				touch: true,
+				touchDistance: '80',
+				autoSlide: true,
+				repeat: true,
+				interval: 3000,
+				duration: 500,
+				easing: 'swing',
+				imgHoverStop: true,
+				navHoverStop: true,
+				prevPosition: 0,
+				nextPosition: 0,
+				viewSlide: 1,
+				baseWidth: 980,
+				navImg: false,
+				navImgCustom: false,
+				navImgSuffix: ''
+			});
+			$('.slidePrev img').rollover();
+			$('.slideNext img').rollover();
+		});
+	</script>
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
 
-    <p class="c">ここもCSS</p>
-    <script type="text/javascript" src="test.js"></script>
+<body>
+	<header>
+		<div class="inner">
+			<h1>
+				<a href="index.html"><img src="images/logo.png" alt="第66回調布祭実行委員会"></a>
+				<span class="schedule">
+					11/25(金)~27(日) 10:00~20:00
+				</span>
+			</h1>
+			<p class="summary">
+				第66回調布祭・第66回調布祭実行委員会公式HP・トップページ
+			</p>
+		</div>
+		<!-- /.inner -->
+	</header>
 
-  </body>
+	<div id="spMenu"><span id="navBtn"><span id="navBtnIcon"></span></span>
+	</div>
+	<nav>
+		<div class="inner">
+			<ul class="gnav">
+				<li class="subnav"><a href="./about/index.html">調布祭について</a>
+					<ul>
+						<li><a href="./about/index.html#greeting">委員長挨拶</a></li>
+						<li><a href="./about/index.html#theme">今年のテーマ</a></li>
+						<li><a href="./about/index.html#lastyear">去年の調布祭</a></li>
+					</ul>
+				</li>
+				<li class="subnav"><a href="./group/index.html">参加団体の皆様へ</a>
+					<ul>
+						<li><a href="./group/index.html#info">最新情報</a></li>
+						<li><a href="./group/index.html#meeting">団体向け説明会</a></li>
+
+					</ul>
+				</li>
+				<li class="subnav"><a href="./company/index.html">企業の方へ</a>
+					<ul>
+						<li><a href="./company/index.html#greeting">渉外局長挨拶</a></li>
+						<li><a href="./company/index.html#guide">協賛のご案内</a></li>
+					</ul>
+				</li>
+				<li class="subnav"><a href="./plan/index.html">企画紹介</a>
+					<ul>
+						<li><a href="./plan/index.html#mp">本部企画</a></li>
+						<li><a href="./plan/index.html#gp">一般企画</a></li>
+						<li><a href="./plan/index.html#oc">オープンキャンパス</a></li>
+					</ul>
+				</li>
+				<li class="subnav"><a href="./contact/index.html">Contact us</a>
+					<ul>
+						<li><a href="./contact/index.html#access">アクセス</a></li>
+						<li><a href="./contact/index.html#enter">加入を希望する方へ
+						<li><a href="./contact/index.html#contacting">お問い合わせ</a></li>
+						<li><a href="./contact/index.html#links">Links</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!-- /.inner -->
+	</nav>
+
+	<div class="slide">
+		<ul class="slideInner">
+			<li>
+				<a href="#"><img src="images/the_end.jpg" alt=""></a>
+			</li>
+			<li>
+				<a href="./countdown/index.html"><img src="images/cntdwn_slide.jpg" alt=""></a>
+			</li>
+			<!--<li>
+				<a href="./documents/調布祭開催に関する自転車撤去確定版.pdf"><img src="images/bike.jpg" alt=""></a>
+			</li>-->
+			<li>
+				<a href="./index.html"><img src="images/photo01.jpg" alt=""></a>
+			</li>
+			<li>
+				<a href="./koudou/speciallive.html"><img src="images/fana_live.jpg" alt=""></a>
+			</li>
+			<li>
+				<a href="http://www.chofusai.com"><img src="images/ap.jpg" alt=""></a>
+			</li>
+			<li>
+				<a href="./group/index.html"><img src="images/photo02.jpg" alt=""></a>
+			</li>
+		</ul>
+		<div class="slidePrev"><img src="images/nav_prev.png" alt="前へ"></div>
+		<div class="slideNext"><img src="images/nav_next.png" alt="次へ"></div>
+		<div class="controlNav"></div>
+	</div>
+	<!-- /.slide -->
+
+	<div id="contents">
+		<div id="main">
+			<!--
+			<div class="warning">
+				<h1 style="font-size: 24px;">【重要】 連日の寒さについて</h1>
+				<p>本日、11月24日(木)調布祭前日は厳しく冷え込み、雪が降りました。
+					<br>模擬店設営など、調布祭準備を行う団体は体調を崩さないよう、各自寒さ対策を徹底し、無理はせず屋外での日没後の活動は極力控えるようお願い致します。
+					<br>また、路面凍結にもご注意下さい。
+				</p>
+				<p>明日、11月25日(金)調布祭1日目につきましても、天候予報は晴れですが、本日同様に冷え込むことが予想されます。
+					<br>ご来場の方々ならびに参加団体をはじめとする、調布祭関係者各位は体調を崩すことのないよう、各自で寒さ対策をお願い致します。
+				</p>
+			</div>-->
+			<h2>新着情報</h2>
+			<div class="scroll">
+				<dl class="info">
+					<dt><span>2016-12-4</span></dt>
+					<dd>
+						第66回調布祭は、好評の内終了致しました。<br>
+						ご来場、ありがとうございました!!
+					</dd>
+					<dt><span>2016-11-27</span></dt>
+					<dd>
+						調布祭に参加する各団体に向けて、新たな資料が追加されたことをお知らせします。<br>
+						詳細は、<a href="./group/index.html">こちら</a>からご確認ください。
+					</dd>
+					<dt><span>2016-11-22</span></dt>
+					<dd>
+						調布祭に参加する各団体に向けて、新たな資料が追加されたことをお知らせします。<br>
+						詳細は、<a href="./group/index.html">こちら</a>からご確認ください。
+					</dd>
+					<dt><span>2016-11-21</span></dt>
+					<dd>
+						調布祭に参加する各団体に向けて、新たな資料が追加されたことをお知らせします。<br>
+						詳細は、<a href="./group/index.html">こちら</a>からご確認ください。
+					</dd>
+					<dt><span>2016-11-20</span></dt>
+					<dd>
+						本年の調布祭に向けて頂きました、寄付金に関する御礼を申し上げます。<br>
+						詳細は、<a href="./about/kihu.html">こちら</a>からご確認ください。
+					</dd>
+					<dt><span>2016-11-17</span></dt>
+					<dd>
+						11月23日に、調布祭にともなう学内の自転車の移動を行います。<br>
+						詳細は、<a href="./documents/調布祭開催に関する自転車撤去確定版.pdf">こちら</a>からご確認ください。
+					</dd>
+					<dt><span>2016-11-15</span></dt>
+					<dd>
+						調布祭に向けたカウントダウンのページをオープンしました！<br>
+						毎日、局長たちのコメントを掲載していきます。
+						詳細は、<a href="./countdown/index.html">こちら</a>から御覧ください！
+					</dd>
+					<dt><span>2016-10-10</span></dt>
+					<dd>
+						今年の講堂スペシャルライブの詳細が決定致しました！<br>
+						詳細は、<a href="./koudou/speciallive.html">こちら</a>から御覧ください！
+					</dd>
+					<dt><span>2016-10-06</span></dt>
+					<dd>
+						調布祭公式アプリをリリースしました。<br>
+						詳細は、<a href="http://www.chofusai.com">こちら</a>から御覧ください。
+					</dd>
+					<dt><span>2016-09-28</span></dt>
+					<dd>
+						企画紹介を一部オープンしました。<br>
+						<a href="plan/index.html">こちら</a>からアクセスが可能です。
+					</dd>
+					<dt><span>2016-08-28</span></dt>
+					<dd>
+						夏休みの対応時間について(追記)<br>
+						9/12(月)~16(金)の間は、全面クローズとなりますのでご注意下さい。
+					</dd>
+					<dt><span>2016-08-28</span></dt>
+					<dd>
+						夏休みの対応時間について<br>
+						電通大の夏季休暇(~9/30)中は、平日12:00~17:00となっております。
+					</dd>
+					<dt><span>2016-08-11</span></dt>
+					<dd>
+						第4回団体向け説明会の資料を掲載しました。<br>
+						<a href="./group/index.html#meeting">こちら</a>から閲覧することが可能です。
+					</dd>
+					<dt><span>2016-08-01</span></dt>
+					<dd>
+						<font color="red">団体向け各種手続き用申込書は<a href="./group/index.html#apply">こちら</a>からDLが可能です。</font>
+					</dd>
+					<dt><span>2016-07-25</span></dt>
+					<dd>
+						パンフレット・ポスターデザイン公募のお知らせを掲載しました。<br>
+						<a href="./group/index.html#poster">こちら</a>から閲覧することが可能です。
+					</dd>
+					<dt><span>2016-07-25</span></dt>
+					<dd>
+						第3回団体向け説明会の資料を掲載しました。<br>
+						<a href="./group/index.html#meeting">こちら</a>から閲覧することが可能です。
+					</dd>
+					<dt><span>2016-06-17</span></dt>
+					<dd>
+						企業向けページを公開しました。
+					</dd>
+					<dt><span>2016-06-17</span></dt>
+					<dd>
+						第2回団体向け説明会の資料を掲載しました。<br>
+						<a href="./group/index.html#meeting">こちら</a>から閲覧することが可能です。
+					</dd>
+					<dt><span>2016-05-17</span></dt>
+					<dd>
+						第1回団体向け説明会の資料を掲載しました。<br>
+						<a href="./group/index.html#meeting">こちら</a>から閲覧することが可能です。
+					</dd>
+					<dt><span>2016-04-26</span></dt>
+					<dd>
+						すべての新入生説明会が終了しました！<br>
+						ありがとうございました！
+					</dd>
+					<dt><span>2016-04-23</span></dt>
+					<dd>
+						参加団体向けページをオープンしました！<br>
+						団体向け説明会の最新情報を随時掲載する予定です！
+					</dd>
+					<dt><span>2016-04-06</span></dt>
+					<dd>
+						新歓の2日目が終了致しました！<br>
+						ご参加いただき、本当にありがとうございました！
+					</dd>
+					<dt><span>2016-04-05</span></dt>
+					<dd>
+						新歓の1日目が終了致しました！<br>
+						2日目の入学式の日も新歓を実施致します！ぜひご参加下さい！
+					</dd>
+					<dt><span>2016-04-03</span></dt>
+					<dd>
+						<!-- ○調の最新情報をここに掲載-->
+						HPをオープンしました。
+					</dd>
+					<!--
+					<dt><span>20XX-01-01</span></dt>
+					<dd>
+				 	更新情報などを掲載するのに便利なデザインです。dlタグに『class="info"』を追加してください。
+				</dd>
+				-->
+				</dl>
+			</div>
+
+			<h2 style="margin-top:50px;">HP更新情報</h2>
+			<div class="scroll">
+				<dl class="info">
+					<dt><span>2016-12-4</span></dt>
+					<dd>
+						スケジュールを削除しました。
+					</dd>
+					<dt><span>2016-11-12</span></dt>
+					<dd>
+						調布祭決起集会の開催時間・場所を更新しました。
+					</dd>
+					<dt><span>2016-11-11</span></dt>
+					<dd>
+						第6回団体向け説明会の資料を掲載しました。
+					</dd>
+					<dt><span>2016-10-22</span></dt>
+					<dd>
+						第5回団体向け説明会の資料を追加しました。<br>
+						<font color="red">赤字</font>の資料が該当致します。<a href="./group/index.html#meeting">こちら</a>でご確認ください。
+					</dd>
+					<dt><span>2016-10-17</span></dt>
+					<dd>
+						講堂企画のページを更新しました。
+					</dd>
+					<dt><span>2016-10-17</span></dt>
+					<dd>
+						第5回団体向け説明会の資料を掲載しました。
+					</dd>
+					<dt><span>2016-10-06</span></dt>
+					<dd>
+						第4回団体向け説明会の開催時間・場所を更新しました。
+					</dd>
+					<dt><span>2016-09-28</span></dt>
+					<dd>
+						ホームページのイメージカラーを一新しました。<br>
+						絢爛を彷彿とさせる橙色を使用しております。
+					</dd>
+					<dt><span>2016-07-28</span></dt>
+					<dd>
+						企業向けページにて一部資料を更新しました。<br>
+						<font color="red">赤字</font>の資料が該当致します。<a href="./company/index.html#guide">こちら</a>でご確認ください。
+					</dd>
+					<dt><span>2016-07-25</span></dt>
+					<dd>
+						第4回団体向け説明会の開催時間・場所を掲載しました。
+					</dd>
+					<dt><span>2016-06-30</span></dt>
+					<dd>
+						第3回団体向け説明会の開催時間・場所を掲載しました。
+					</dd>
+					<dt><span>2016-06-17</span></dt>
+					<dd>
+						第2回団体向け説明会の資料を掲載しました。
+					</dd>
+					<dt><span>2016-06-15</span></dt>
+					<dd>
+						第2回団体向け説明会の開催時間・場所を更新しました。
+					</dd>
+					<dt><span>2016-05-17</span></dt>
+					<dd>
+						第1回団体向け説明会の資料を掲載しました。<br>
+						また第2回団体向け説明会の情報を掲載しました。
+					</dd>
+					<dt><span>2016-04-26</span></dt>
+					<dd>
+						第四回新入生説明会が終了したことを更新しました。
+					</dd>
+					<dt><span>2016-04-23</span></dt>
+					<dd>
+						参加団体向けページをオープンしました。
+					</dd>
+					<dt><span>2016-04-23</span></dt>
+					<dd>
+						第三回新入生説明会が終了したことを更新しました。
+					</dd>
+					<dt><span>2016-04-14</span></dt>
+					<dd>
+						第二回新入生説明会が終了したことを更新しました。
+					</dd>
+					<dt><span>2016-04-13</span></dt>
+					<dd>
+						第一回新入生説明会が終了したことを更新しました。
+					</dd>
+					<dt><span>2016-04-04</span></dt>
+					<dd>
+						HPの新入生説明会の詳細を更新しました。
+					</dd>
+					<!--
+					</dd>
+					<dt><span>20XX-01-01</span></dt>
+					<dd>
+						更新情報などを掲載するのに便利なデザインです。dlタグに『class="info"』を追加してください。
+					</dd>-->
+				</dl>
+			</div>
+			<div style="margin-top:50px;"></div>
+			<a class="twitter-timeline" href="https://twitter.com/choufusai_uec" data-widget-id="704619592186892288">@choufusai_uecさんのツイート</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+		<!-- /#main -->
+		<div id="sub">
+			<ul class="bnr">
+				<li>
+					<a href="./countdown/index.html"><img src="./images/cntdwn_bannar.jpg" alt="" /></a>
+				</li>
+				<li>
+					<a href="./koudou/speciallive.html"><img src="./images/koudou_bannar.jpg" alt=""></a>
+				</li>
+				<li>
+					<a href="./about/kihu.html"><img src="./images/donation.jpg" alt=""></a>
+				</li>
+			</ul>
+			<h3>今後のスケジュール</h3>
+			<ul class="submenu">
+				<li><a href="#">なし</a></li>	</ul>
+			</ul>
+			<h3>協賛企業</h3>
+			<!--
+				<p>
+					サブコンテンツはバナーを掲載するのに便利です。ulタグに『class="bnr"』とすれば、きれいに画像が並びます。
+				</p>
+			-->
+			<ul class="bnr">
+				<li>
+					<a href="http://www.choufu.co.jp/"><img src="images/choufuhousing_banner_160920.png" alt=""></a>
+				</li>
+				<li>
+					<a href="http://www.numo.or.jp/pr-info/geolab/geomiraigo.html"><img src="images/NUMO_banner.png" alt=""></a>
+				</li>
+				<li>
+					<a href="http://www.gakuseikyosan.com/?trflg=1"><img src="images/kyousan_bannar.jpg" alt=""></a>
+				</li>
+				<!--
+				<li>
+					<a href="http://www.numo.or.jp/pr-info/geolab/geomiraigo.html"><img src="images/NUMO_banner.png" alt=""></a>
+				</li>
+							-->
+			</ul>
+			<ul class="submenu">
+				<li>
+					<a href="http://www.hondacars-tokyochuo.co.jp/rental/" class="ad_text">
+							Honda Cars東京中央様<br>　　レンタカーページ
+					</a>
+				</li>
+				<li>
+					<a href="https://jukunavi.com/kanto/%E6%9D%B1%E4%BA%AC%E9%83%BD/%E8%AA%BF%E5%B8%83%E5%B8%82" class="ad_text">
+							塾講師ナビ 調布の求人情報
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- /#sub -->
+	</div>
+	<!-- /#contents -->
+
+	<footer>
+		<div class="footmenu">
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="./about/index.html">調布祭について</a></li>
+				<li><a href="./student/index.html">入会のご案内</a></li>
+				<li><a href="./group/index.html">参加団体の皆様へ</a></li>
+				<li><a href="./company/index.html">企業の方へ</a></li>
+				<li><a href="./plan/index.html">企画紹介</a></li>
+				<li><a href="./contact/index.html">Contact us</a></li>
+				<li><a href="./construction.html">サイトマップ</a></li>
+			</ul>
+		</div>
+		<!-- /.footmenu -->
+		<div class="copyright">Copyright &#169; 2016 電気通信大学 調布祭実行委員会 All rights reserved.</div>
+		<!-- /.copyright -->
+	</footer>
+
+	<div class="totop">
+		<a href="#"><img src="images/totop.png" alt="ページのトップへ戻る"></a>
+	</div>
+	<!-- /.totop -->
+</body>
+
 </html>
