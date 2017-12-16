@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+* {
+  margin: 0; padding: 0;
+}
+
+p {padding-left:1em;}
+
+body {
+  background-color: #FF4000;
+  font-size: 95%;
+font-family: "ヒラギノ丸ゴ ProN W4",sans-serif;
+line-height: 1.5;
+color: #333333;  /*濃いグレー*/
+}
+
+#img-index {
+  width: 950px; height: 480px;
+
+}
+
+div#GestName {
+  width: 950px; height: 60px;
+  margin: 0px 0px 50px 0px
+}
+
+div#pagebody {
+  background-color: #FFBB55;
+  width: 1000px; margin: 0 auto;
+}
+
+/*枠組みども*/
+
+div#schedule {
+  margin: 10px; padding: 10px; border: 5px solid #8A2908;
+  background-color: #FFF0F0;
+}
+
+div#index_info01 {
+  margin: 10px; padding: 10px; border: 5px solid #8A2908;
+  background-color: #FFF0F0;
+  height: 1850px;
+}
+
+div#index_info02 {
+  margin: 10px; padding: 10px; border: 5px solid #8A2908;
+  background-color: #FFF0F0;
+}
+
+div#index_info0A {
+  margin: 10px; padding: 10px; border: 5px solid #8A2908;
+  background-color: #FFF0F0;
+}
+
+div#index_info03 {
+  margin: 10px; padding: 10px; border: 5px solid #8A2908;
+  background-color: #FFF0F0;
+}
+
+div#index_info04 {
+  margin: 10px; padding: 10px; border: 5px solid #8A2908;
+  background-color: #FFF0F0;
+}
+
+div#index_info05 {
+  margin: 10px; padding: 10px; border: 5px solid #8A2908;
+  background-color: #FFF0F0;
+}
+
+div#index_infor {
+  margin: 10px; padding: 10px; border: 5px solid #8A2908;
+  background-color: #FFF0F0;
+}
+/*====================*/
+div#info0A-content{
+  height:160px;
+  background-color: #FFF0F0;
+  zoom:1
+}
+
+div#info0A-content:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+div#info0A-content-name{
+  width:40%;
+  height:120px;
+  margin: 10px 0px 0px 0px;
+   background:#FFF0F0;
+   float:left;
+}
+
+div#info0A-content-pic{
+  width:60%;
+   height:120px;
+   margin: 10px 0px 0px 0px;
+   background:#FFF0F0;
+   float:right;
+}
+/*====================*/
+div#info0A-gest{
+  width:900px;
+  height:280px;
+
+  background-color: #FFF0F0;
+  zoom:1
+}
+
+div#info0A-gest:after {
+
+  display: block;
+  clear: both;
+  content: "";
+}
+
+
+div#info0A-name-box{
+  width:50%;
+   height:71px;
+   margin: 20px 0px;
+   padding: 69px 0px;
+   background:#FFF0F0;
+   float:left;
+}
+
+div#info0A-pro-box{
+  width:50%;
+  margin: 20px 0px;
+   height:210px;
+   background:#FFF0F0;
+   float:left;
+}
+/*====================*/
+
+/*メインメニュー*/
+ul #menu {
+  width: 980px; height: 50px;
+  margin: 5px 10px;
+}
+
+#menu li {
+  list-style-type: none;
+  display: inline;
+  float:left;
+}
+
+#menu li a {
+  background-color: #A00000;
+  color:#ffffff;
+  display: block;
+  width: 140px; height: 35px;
+  padding: 15px 0px 0px 0px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#menu li a:hover {
+  background-color: #8A2908;
+}
